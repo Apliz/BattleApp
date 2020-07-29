@@ -1,9 +1,10 @@
+
 <div>
 
-<%=@player1%> Vs <%=@player2%><br><br>
-<p> <%= @player2 %> 100HP </p>
+<%=@name1%> Vs <%=@name2%><br><br>
+<p> <%= @name2 %> ~ <%= @health2%> HP </p>
 <form action= '/attack' method = get>
-  <input type='submit' name='ATTACK!'>
+  <input type='submit' value='Attack!'>
 </form>
 
 </div>
